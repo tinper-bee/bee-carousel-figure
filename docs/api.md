@@ -1,6 +1,6 @@
 # 走马灯 CarouselFigure
 
-一组轮播的区域
+一组轮播的区域，基于 react-slick 实现。
 
 ## 何时使用
 例如：首页滚动图片
