@@ -1,6 +1,6 @@
-# 轮播图 CarouselFigure
+# 走马灯 CarouselFigure
 
-轮播图组件
+一组轮播的区域
 
 ## 何时使用
 例如：首页滚动图片
@@ -27,6 +27,15 @@ import 'bee-carousel-figure/build/CarouselFigure.css';
 |easing |动画效果|string|linear|
 |effect |动画效果函数，可取 scrollx, fade|string|scrollx|
 
+## 方法
+
+|名称|描述|
+|:--|:---|
+|goTo(slideNumber, dontAnimate) |切换到指定面板, dontAnimate = true 时，不使用动画|
+|next() |切换到下一面板|
+|prev() |切换到上一面板|
+
+更多参数可参考：https://github.com/akiran/react-slick
 
 ## 注意事项
 
